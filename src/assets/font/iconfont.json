@@ -1,0 +1,23 @@
+{
+  "id": "2462096",
+  "name": "vue-text-collape",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19192638",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "20770904",
+      "name": "down",
+      "font_class": "up",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    }
+  ]
+}
