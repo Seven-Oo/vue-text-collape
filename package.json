@@ -1,6 +1,6 @@
 {
   "name": "vue-text-collape",
-  "description": "vue内容折叠插件",
+  "description": "vue文本内容折叠插件",
   "version": "1.0.0",
   "author": "seven <jinling516@163.com>",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Seven-Oo/vue-text-collape.git"
   },
   "browserslist": [
     "> 1%",
