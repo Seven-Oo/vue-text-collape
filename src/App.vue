@@ -3,7 +3,7 @@
     <h2>vue-text-collape</h2>
     <p></p>
     <ul>
-      <li><a href="" target="_blank">github</a></li>
+      <li><a href="https://github.com/Seven-Oo/vue-text-collape.git" target="_blank">github</a></li>
     </ul>
     <collape
       :lineH="24"

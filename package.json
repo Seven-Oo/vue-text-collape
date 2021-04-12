@@ -1,7 +1,7 @@
 {
   "name": "vue-text-collape",
   "description": "vue文本内容折叠插件",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "seven <jinling516@163.com>",
   "license": "MIT",
   "private": false,

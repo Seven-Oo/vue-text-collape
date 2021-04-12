@@ -2,15 +2,13 @@
   <div class="hw_content" ref="hwC" :style="{lineHeight: `${lineH}px`, height: `${boxH}px`}">
     <div class="mask" @click="showIntro($event)" ref="mask" :style="{height: `${lineH}px`, background: bgColor, color: showColor}">
       <span class="maskSpan">{{showTxt}}</span>
-      <i class="triangle-down" :style="{borderTopColor: `${showColor}`}"></i>
-      <!-- <i class="iconfont icon-down" :style="{color: `${showColor}`}"></i> -->
+      <i class="iconfont icon-down" :style="{color: `${showColor}`}"></i>
     </div>
     <div class="intro">
       {{content}}
       <span class="mask_hide" :style="{height: `${lineH}px`, color: hideColor}" @click="hideIntro($event)">
         {{hideTxt}}
-        <!-- <i class="iconfont icon-up" :style="{color: `${hideColor}`}"></i> -->
-        <i class="triangle-up" :style="{borderBottomColor: `${hideColor}`}"></i>
+        <i class="iconfont icon-up" :style="{color: `${hideColor}`}"></i>
       </span>
     </div>
   </div>
@@ -105,11 +103,6 @@ methods: {
     padding-left: 10px;
     position: relative;
   }
-  /* .mask .maskSpan:after {
-    position: absolute;
-    content: '>>';
-    right: -30px;
-  } */
   .triangle-up {
     display: inline-block;
     vertical-align: middle;
@@ -134,12 +127,7 @@ methods: {
     cursor: pointer;
     position: relative;
   }
-  /* .mask_hide:after {
-    position: absolute;
-    content: '<<';
-    right: -30px;
-  }
   .mask_hide .icon-up {
     vertical-align: middle;
-  } */
+  }
 </style>
